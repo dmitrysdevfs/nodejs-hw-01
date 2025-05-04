@@ -10,7 +10,7 @@ const generateContacts = async (number) => {
 
     await writeContacts(updatedContacts);
   } catch (error) {
-    console.error('Generating error', error);
+    console.error('Generating error:', error.message);
   }
 };
 
