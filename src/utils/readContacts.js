@@ -10,5 +10,3 @@ export const readContacts = async () => {
     return null;
   }
 };
-
-// readContacts();
